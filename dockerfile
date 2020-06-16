@@ -8,5 +8,4 @@ ADD ./config .
 RUN go mod download; go build -o goose .
 # Our start command which kicks off
 # our newly created binary executable
-ENTRYPOINT []
-CMD ["/app/goose"]
+ENTRYPOINT ["/app/goose"]

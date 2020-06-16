@@ -1,4 +1,4 @@
-module github.com/lapt0r/goose
+module gitlab.com/lapt0r/goose
 
 go 1.13
 
